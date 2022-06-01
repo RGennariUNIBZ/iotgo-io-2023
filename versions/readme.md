@@ -1,4 +1,4 @@
-This folder contains the versions used in differnt iotgo workshops.
+This folder contains the versions used in differnt iotgo workshops. 
 
 Links for IoTgo apps are as following: 
 
