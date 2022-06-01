@@ -20,5 +20,5 @@ Links for IoTgo apps are as following:
 
  Upcoming apps: 
  - BZ: Summer camp 2022 
- - MI, Gallarate, CS-curriculum app, September 2022
+ - MI, Gallarate: CS-curriculum app, September 2022
  - All-in-one customizable app.
