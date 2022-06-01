@@ -18,4 +18,7 @@ Links for IoTgo apps are as following:
 
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/iotgo-app/iotgo-io/main/versions/ve_kuni.py) MI: CINI-node workshop, May 2022 (IT), without scanner, with multiple hardware kits, (Makecode+JS)  (phy+p2p )
 
- 
+ Upcoming apps: 
+ - BZ: Summer camp 2022 
+ - MI, Gallarate, CS-curriculum app, September 2022
+ - All-in-one customizable app.
