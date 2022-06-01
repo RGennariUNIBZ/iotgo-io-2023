@@ -1,1 +1,1 @@
-to move all images here.
+Older versions of app images. Still in use by legacy apps.
