@@ -34,26 +34,26 @@ st.markdown(fix_sidebar,unsafe_allow_html=True)
 
 
 	 
-inputs_microbitv1= ("l\'accelerazione è alta" ,
-		    "l\'accelerazione è basso" ,
+inputs_microbitv1= ("l\'accelerazione è alta",
+		    "l\'accelerazione è bassa",
 		    "il pulsante non è premuto",
 		    "il pulsante è premuto",
 		    "la bussola punta ad Est",
-		    "la bussola punta a Nord" ,
-		    "la bussola punta a Sud" ,
-		    "la bussola punta ad Ovest" ,
-		    "il gesto è scuotere" ,
-		    "il gesto è inclinare" ,
+		    "la bussola punta a Nord",
+		    "la bussola punta a Sud",
+		    "la bussola punta ad Ovest",
+		    "il gesto è scuotere",
+		    "il gesto è inclinare",
 		    "l\'intensità di luce è alta",
 		    'l\'intensità di luce è bassa',
-		    'la temperatura è alta' ,
-		    'la temperatura è bassa' ,
+		    'la temperatura è alta',
+		    'la temperatura è bassa',
 	
 		   )
-inputs_microbitv2= ( "il rumore è alto" ,
-		    'il rumore è basso' ,
+inputs_microbitv2= ( "il rumore è alto",
+		    'il rumore è basso',
 		    'il logo non è toccato', #v2 
-		    'il logo è toccato' ,#v2 
+		    'il logo è toccato',#v2 
 		   )
 inputs_exBosonKit= ('non c\'è movimento nei dintorni (BosonKit)' ,
 'c\'è movimento nei dintorni (BosonKit)' ,
@@ -71,10 +71,10 @@ inputs_exEnviroBit= ("c\'è tanta umidità (Envirobit)",
 "la temperatura è bassa (Envirobit)" ,
 "l\'intensità di luce è alta (Envirobit)",
 "l\'intensità di luce è bassa (Envirobit)",
-"il colore  è rosso (Envirobit)",
-"il colore  è verde (Envirobit)",
-"il colore  è blu (Envirobit)",
-"il colore  è nero (Envirobit)",
+"il colore è rosso (Envirobit)",
+"il colore è verde (Envirobit)",
+"il colore è blu (Envirobit)",
+"il colore è nero (Envirobit)",
 "c\'è un applauso (Envirobit)",
 "non c’è un applauso (Envirobit)",
 )
@@ -148,7 +148,7 @@ it2en_inout={
 'il logo non è toccato':"touchNo" , #v2 
 'il logo è toccato':"touchYes" ,#v2 
 "l\'accelerazione è alta":"accelHigh" ,
-"l\'accelerazione è basso":"accelLow" ,
+"l\'accelerazione è bassa":"accelLow" ,
 "il pulsante non è premuto":"buttonNotPress",
 "il pulsante è premuto":"buttonPress",
 "la bussola punta ad Est":"compassE" ,
