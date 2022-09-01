@@ -51,7 +51,7 @@ st.markdown(hide_expander_border, unsafe_allow_html=True)
 
 	 
 inputs_microbitv1= ("l\'accelerazione è alta" ,
-		    "l\'accelerazione è basso" ,
+		    "l\'accelerazione è bassa" ,
 		    "il pulsante non è premuto",
 		    "il pulsante è premuto",
 		    "la bussola punta ad Est",
@@ -75,7 +75,7 @@ inputs_exBosonKit= ('non c\'è movimento nei dintorni (BosonKit)' ,
 'c\'è movimento nei dintorni (BosonKit)' ,
 'il cursore è al massimo (BosonKit)' ,
 'il cursore è al minimo (BosonKit)' ,
-#"il cursore è al medio (BosonKit)" ,
+#"il cursore è in mezzo (BosonKit)" ,
 		   )
 inputs_exEnviroBit= ("c\'è tanta umidità (Envirobit)",
 "c\'è poca umidità (Envirobit)",
@@ -174,8 +174,8 @@ st.sidebar.markdown("""---""")
 # # 	output_options=  ('no Output',) + outputs_microbitv1 + outputs_microbitv2 + outputs_exEnviroBit
 
 
-input_options=  ('no Input',) + inputs_microbitv1 + inputs_microbitv2 + inputs_exOthers
-output_options=  ('no Output',) + outputs_microbitv1 + outputs_microbitv2 +outputs_exOthers
+input_options=  ('no Input',) + inputs_microbitv1 + inputs_microbitv2 + inputs_exOthers + inputs_exBosonKit
+output_options=  ('no Output',) + outputs_microbitv1 + outputs_microbitv2 +outputs_exOthers + outputs_exBosonKit
 # input_options=  ('no Input',) + inputs_microbitv1 + inputs_microbitv2 
 # output_options=  ('no Output',) + outputs_microbitv1 + outputs_microbitv2
 
@@ -200,7 +200,7 @@ if secondLevel==True:
         input2 = st.sidebar.selectbox('Seleziona un\'altra carta di input ', input_options)
         output2 = st.sidebar.selectbox('Seleziona un\'altra carta di output ', output_options) 
     elif p2p==True:
-        p2ptype = st.sidebar.radio("Sono...",('invio dati', 'ricevo dati'),on_change=resetCards)
+        p2ptype = st.sidebar.radio("Io...",('invio dati', 'ricevo dati'),on_change=resetCards)
         if p2ptype=='invio dati':
             input2 = st.sidebar.selectbox('Seleziona un\'altra carta di input',input_options)
             output2= 'invio dati' 
@@ -229,7 +229,7 @@ it2en_inout={
 'il logo non è toccato':"touchNo" , #v2 
 'il logo è toccato':"touchYes" ,#v2 
 "l\'accelerazione è alta":"accelHigh" ,
-"l\'accelerazione è basso":"accelLow" ,
+"l\'accelerazione è bassa":"accelLow" ,
 "il pulsante non è premuto":"buttonNotPress",
 "il pulsante è premuto":"buttonPress",
 "la bussola punta ad Est":"compassE" ,
@@ -296,7 +296,7 @@ it2en_inout={
 it2en_inoutold= {
     "Il pulsante premuto":"buttonPress",
     'Il pulsante non è premuto':"buttonNotPress",
-    'L\'accelerazione è basso':"accelLow" , 
+    'L\'accelerazione è bassa':"accelLow" , 
     'L\'accelerazione è alta':"accelHigh"  , 
     'La bussola punta ad Est':"compassE"  , 
     'La bussola punta ad Ovest':"compassW"  , 

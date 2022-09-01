@@ -46,7 +46,7 @@ st.markdown(
 
 inputs_microbitv1= ('Il pulsante premuto',
          'Il pulsante non è premuto',
-         'L\'accelerazione è basso',
+         'L\'accelerazione è bassa',
          'L\'accelerazione è alta',
          'La bussola punta ad Est'  ,
          'La bussola punta ad Ovest'  ,
@@ -109,7 +109,7 @@ output1 = st.sidebar.selectbox('   &   ',output_options)
 it2en_inout= {
     "Il pulsante premuto":"buttonPress",
     'Il pulsante non è premuto':"buttonNotPress",
-    'L\'accelerazione è basso':"accelLow" , 
+    'L\'accelerazione è bassa':"accelLow" , 
     'L\'accelerazione è alta':"accelHigh"  , 
     'La bussola punta ad Est':"compassE"  , 
     'La bussola punta ad Ovest':"compassW"  , 
